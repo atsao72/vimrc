@@ -42,3 +42,6 @@ nnoremap k gk
 " move to beginning/end of line
 nnoremap B ^
 nnoremap E $
+
+" switch to previously opened buffer
+nnoremap <C-e> :e#<CR>
